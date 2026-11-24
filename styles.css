@@ -128,3 +128,6 @@ input[aria-invalid="true"],textarea[aria-invalid="true"]{border-color:#A8321C}
 .foot .credit{max-width:var(--wrap);margin:2rem auto 0;padding:1.2rem 22px 0;border-top:1px solid #33405C;font-size:.88rem}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 [tabindex="-1"]:focus{outline:none}
+
+/* img-placeholder */
+img:not([src$=".svg"]){background-color:var(--paper-2)}
