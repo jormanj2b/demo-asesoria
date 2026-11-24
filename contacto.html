@@ -33,15 +33,15 @@
 <section class="page-head wrap"><p class="eyebrow">Contacto</p><h1>Pide tu primera consulta</h1><p class="lead">Contestamos en menos de un día laborable. Si lo prefieres, llama de 9:00 a 14:00.</p></section>
 <section class="wrap section contact-grid">
   <form id="contact" class="form" novalidate>
-    <div class="f"><label for="nombre">Nombre</label><input id="nombre" name="nombre" autocomplete="name" maxlength="80" required><p class="error" id="err-nombre" hidden></p></div>
-    <div class="f"><label for="email">Correo</label><input id="email" name="email" type="email" autocomplete="email" maxlength="100" required><p class="error" id="err-email" hidden></p></div>
-    <div class="f"><label for="tel">Teléfono <span class="opt">(opcional)</span></label><input id="tel" name="tel" type="tel" autocomplete="tel" maxlength="20"><p class="error" id="err-tel" hidden></p></div>
+    <div class="f"><label for="nombre">Nombre</label><input id="nombre" name="nombre" autocomplete="name" minlength="2" maxlength="80" required pattern="\p{L}(?:[\p{L}\p{M}]|[' ’\-](?=\p{L}))*" spellcheck="false"><p class="error" id="err-nombre" aria-live="polite" hidden></p></div>
+    <div class="f"><label for="email">Correo</label><input id="email" name="email" type="email" autocomplete="email" maxlength="100" required><p class="error" id="err-email" aria-live="polite" hidden></p></div>
+    <div class="f"><label for="tel">Teléfono <span class="opt">(opcional)</span></label><input id="tel" name="tel" type="tel" autocomplete="tel" maxlength="16" inputmode="tel" pattern="\+?[0-9]{9,15}"><p class="error" id="err-tel" aria-live="polite" hidden></p></div>
     <fieldset class="f radios"><legend>Eres…</legend>
       <label><input type="radio" name="tipo" value="Autónomo" checked> Autónomo</label>
       <label><input type="radio" name="tipo" value="Sociedad"> Empresa (SL)</label>
       <label><input type="radio" name="tipo" value="Empezando"> Voy a empezar</label>
     </fieldset>
-    <div class="f"><label for="mensaje">¿En qué te ayudamos?</label><textarea id="mensaje" name="mensaje" rows="5" maxlength="1500" aria-describedby="help-msg" required></textarea><p class="help" id="help-msg">Por ejemplo: «Soy fotógrafo autónomo desde 2023 y quiero cambiar de gestoría».</p><p class="error" id="err-mensaje" hidden></p></div>
+    <div class="f"><label for="mensaje">¿En qué te ayudamos?</label><textarea id="mensaje" name="mensaje" rows="5" maxlength="1500" aria-describedby="help-msg" required></textarea><p class="help" id="help-msg">Por ejemplo: «Soy fotógrafo autónomo desde 2023 y quiero cambiar de gestoría».</p><p class="error" id="err-mensaje" aria-live="polite" hidden></p></div>
     <div class="f check"><input type="checkbox" id="acepto" required><label for="acepto">He leído la <a href="privacidad.html">política de privacidad</a> y acepto que usen mis datos para responderme.</label></div>
     <p class="error" id="err-acepto" hidden></p>
     <button class="btn" type="submit">Enviar consulta</button>
@@ -69,7 +69,7 @@
   </div>
   <p class="credit">Sitio hecho por <a href="https://jormanj2b.github.io/">Jorman Bravo · Desarrollo web</a></p>
 </footer>
-<script src="app.js" defer></script>
+<script src="app.js?v=2" defer></script>
 <script src="reveal.js" defer></script>
 </body>
 </html>
