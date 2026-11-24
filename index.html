@@ -25,7 +25,7 @@
 </script>
 <link rel="preload" as="image" href="img/hero-800.webp" imagesrcset="img/hero-800.webp 800w, img/hero-1600.webp 1600w" imagesizes="(min-width: 960px) 50vw, 100vw">
 </head>
-<body>
+<body data-reveal=".section h2, .svc, .deadlines li, .price-card, .person, .quote, .how li, .mini, .faq details, .contact-info">
 <a class="skip" href="#main">Saltar al contenido</a>
 <div class="demo-bar">Sitio de demostración: despacho ficticio. Diseño y desarrollo de <a href="https://jormanj2b.github.io/">Jorman Bravo · Desarrollo web</a></div>
 <header class="top">
@@ -37,12 +37,15 @@
 <section class="hero">
   <div class="hero-text">
     <p class="eyebrow">Asesoría para autónomos y pymes · Chamberí</p>
-    <h1>Tus impuestos al día, y una persona que te contesta el teléfono.</h1>
+    <h1>Tus impuestos al día, y una persona que te <em>contesta el teléfono.</em></h1>
     <p class="lead">Llevamos la fiscalidad, la contabilidad y las nóminas de 140 autónomos y pequeñas empresas de Madrid. Cuota fija al mes y sin sorpresas en junio.</p>
     <div class="cta"><a class="btn" href="contacto.html">Pedir primera consulta</a><a class="btn btn-line" href="servicios.html">Ver tarifas</a></div>
-    <p class="small">La primera consulta dura 20 minutos y no tiene coste.</p>
+    <ul class="facts"><li><b>140</b> clientes en Madrid</li><li><b>55 €</b> al mes, cuota fija</li><li><b>20 min</b> primera consulta gratis</li></ul>
   </div>
-  <img class="hero-img" src="img/hero-800.webp" srcset="img/hero-400.webp 400w, img/hero-800.webp 800w, img/hero-1600.webp 1600w" sizes="(min-width: 960px) 50vw, 100vw" width="1600" height="900" alt="Una asesora revisa documentos con una pareja de autónomos en el despacho" fetchpriority="high">
+  <figure class="hero-fig">
+    <img class="hero-img" src="img/hero-800.webp" srcset="img/hero-400.webp 400w, img/hero-800.webp 800w, img/hero-1600.webp 1600w" sizes="(min-width: 960px) 50vw, 100vw" width="1600" height="900" alt="Una asesora revisa documentos con una pareja de autónomos en el despacho" fetchpriority="high">
+    <figcaption class="stamp"><span class="stamp-k">Próximo plazo</span><b>30 de enero</b><span>IVA del 4.º trimestre · Modelo 303</span><span class="stamp-ok">Lo presentamos nosotros</span></figcaption>
+  </figure>
 </section>
 <section class="band">
   <div class="wrap">
@@ -87,5 +90,6 @@
   <p class="credit">Sitio hecho por <a href="https://jormanj2b.github.io/">Jorman Bravo · Desarrollo web</a></p>
 </footer>
 <script src="app.js" defer></script>
+<script src="reveal.js" defer></script>
 </body>
 </html>
