@@ -201,3 +201,9 @@ img:not([src$=".svg"]){background-color:var(--paper-2)}
   .stamp{left:auto;right:4px;bottom:-30px;min-width:0;padding:.75rem 1rem}
   .stamp b{font-size:1.3rem}
 }
+/* ronda 2: aviso de cookies alineado con la columna del pie */
+.foot>.ck-foot{max-width:var(--wrap);margin:.2rem auto 0;padding:0 22px;font-size:.88rem}
+/* ronda 2: ninguna etiqueta por debajo de 12 px */
+.logo small,.stamp-k{font-size:.75rem}
+.skip{display:inline-flex;align-items:center;min-height:44px}
+.nav a{min-height:44px;display:inline-flex;align-items:center}
