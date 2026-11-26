@@ -207,3 +207,8 @@ img:not([src$=".svg"]){background-color:var(--paper-2)}
 .logo small,.stamp-k{font-size:.75rem}
 .skip{display:inline-flex;align-items:center;min-height:44px}
 .nav a{min-height:44px;display:inline-flex;align-items:center}
+
+/* ES/EN */
+.lang-switch{display:inline-block;margin-left:.6rem;padding:.15rem .7rem;border:1px solid currentColor;border-radius:999px;font-weight:600;text-decoration:none;line-height:1.5}
+.lang-switch:hover{text-decoration:underline}
+html[lang="en"] .price-card.featured::before{content:"Most popular"}

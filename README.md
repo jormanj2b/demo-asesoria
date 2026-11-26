@@ -19,3 +19,9 @@ Ribera & Ochoa Asesores es un negocio **ficticio**. Este repositorio es una piez
 GitHub Pages desde la rama `main`. Para un cliente real se conecta su dominio, se cambian los datos de ejemplo y se añade el número de WhatsApp o el servicio de formularios que use el negocio.
 
 © 2026 Jorman Bravo. Código de muestra para portafolio.
+
+## English version
+
+`en/` is a native English version for US clients, adapted to the US market as **Rivera & Ochoa Tax & Accounting** (fictional, Denver, CO): IRS deadlines (1040-ES, W-2/1099-NEC, Tax Day), US plans in dollars (freelancers, LLCs and S corps, payroll, LLC formation), 10-digit phone validation, English form messages, cookie notice and legal pages. It reuses the root CSS, fonts and photos. Every page has an ES/EN switch in the top bar.
+
+**Live:** https://jormanbravo.com/demo-asesoria/en/
