@@ -2,9 +2,9 @@
 
 Sitio corporativo de varias páginas para una asesoría: servicios con tarifas, equipo, plazos fiscales y formulario de contacto validado.
 
-**Sitio en vivo:** https://jormanj2b.github.io/demo-asesoria/
+**Sitio en vivo:** https://jormanbravo.com/demo-asesoria/
 
-Ribera & Ochoa Asesores es un negocio **ficticio**. Este repositorio es una pieza de portafolio de **Jorman Bravo · Desarrollo web** ([portafolio](https://jormanj2b.github.io/)), no el sitio de una empresa real. Las direcciones, personas, precios y testimonios son de ejemplo, y las fotos están generadas para la demo.
+Ribera & Ochoa Asesores es un negocio **ficticio**. Este repositorio es una pieza de portafolio de **Jorman Bravo · Desarrollo web** ([portafolio](https://jormanbravo.com/)), no el sitio de una empresa real. Las direcciones, personas, precios y testimonios son de ejemplo, y las fotos están generadas para la demo.
 
 ## Qué incluye
 
